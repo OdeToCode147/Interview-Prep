@@ -4,6 +4,11 @@ blockquote{
 body{
     background-color: #EBFFFB;
 }
+hr{
+    position: relative;
+    right: 8px;
+    color: #445566;
+}
 .heading{
     color: aliceblue;
     position: relative;
