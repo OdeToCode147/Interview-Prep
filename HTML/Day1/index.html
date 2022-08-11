@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h1 class="heading">
+        HTML Interview QnA
+    </h1>
+    <h3 class="question">
+        What is the difference between div and span?
+    </h3>
+    <blockquote>
+        Div tag is abreviation for Division tag which is block level in nature, which means it is bound to take full length of the width of the screen irrespective of it's content and hence always starts in a new line and is often used to wrap the section of the document. Wheras Span happens to be an inline element that takes only the width that it's content requires and if it happens to come next to another inline tag, it starts within the same line and hence are used to wrap smaller portions of text or images within the document.
+
+    </blockquote>
+    <h3 class="question">
+        What is the difference between class and IDs?
+    </h3>
+    <blockquote>
+        Both the Class and ID are used to identify the elements within the html file, but the difference is that the ID is unique to every element and one element can have only a single id, whereas class can be used to identify mutiple elements and even a single element can have multiple classes. But the ID has an highest priority over Class when both of the attributes have a conflicting value.
+        <br>
+        <br>
+        <i>
+            <b>
+                Example:
+            </b>
+            <br>
+            <br>
+            <b>
+                ID can be written as
+            </b>
+            <pre>
+    &lt;div id="ID"&gt;&lt;/div&gt;
+            </pre>
+            <b>
+                Class can be written as
+            </b>
+            <pre>
+                &lt;div class="Class1 Class2"&gt;&lt;/div&gt;
+            </pre>
+        </i>
+    </blockquote>
+    <h3 class="question">
+        What are self closing tags?
+    </h3>
+    <blockquote>
+        Self closing tags are the type of tags that doesn't have a seperate closing tag as they get closed within the opening tags itslef. These tags are also known as empty tags since the element only contains the tag and nothing else like the attributes.
+        <br>
+        <br>
+        <i>
+            <b>
+                Example:
+            </b>
+            <pre>
+                &lt;br&gt; , &lt;hr&gt; , &lt;img&gt; , &lt;input&gt; , &lt;area&gt;
+            </pre>
+        </i>
+    </blockquote>
+    <h3 class="question">
+        How many types of headings are there? How to decide which to use where? 
+    </h3>
+    <blockquote>
+        There are a total of 6 types of heading tags which are all by default bold in text weigth, namely:
+        <pre>
+        <h1>Heading 1</h1>
+        &lt;h1&gt; ---> Font-Size : 32px
+        <h2>Heading 2</h2>
+        &lt;h2&gt; ---> Font-Size : 24px
+        <h3>Heading 3</h3>
+        &lt;h3&gt; ---> Font-Size : 18px
+        <h4>Heading 4</h4>
+        &lt;h4&gt; ---> Font-Size : 16px
+        <h5>Heading 5</h5>
+        &lt;h5&gt; ---> Font-Size : 14px
+        <h6>Heading 6</h6>
+        &lt;h6&gt; ---> Font-Size : 12px
+        </pre>
+        So the headings have a priority from top to bottom and depending on the section we are working with, the appropriate tag is selected.
+    </blockquote>
+    <h3 class="question">
+        What is the difference between block and inline?
+    </h3>
+    <blockquote>
+        Block level elements by default is bound to take full length of the width of the screen irrespective of it's content and hence always starts in a new line and by default has an added margin.
+        <br>
+        <br>
+        <i>
+            <b>
+                Example:
+            </b>
+            <pre>
+                &lt;div&gt; , &lt;h1&gt; , &lt;p&gt; , &lt;pre&gt; , &lt;header&gt; , &lt;footer&gt; , &lt;section&gt; , &lt;form&gt; , &lt;nav&gt; , &lt;hr&gt; , &lt;blockquote&gt; , &lt;li&gt; 
+            </pre>
+        </i>
+        Wheras an inline element takes only the width that it's content requires and if it happens to come next to another inline tag, it starts within the same line and hence they don't have an added margin and even styling like padding and margin doesn't get applied on it.
+        <br>
+        <br>
+        <i>
+            <b>
+                Example:
+            </b>
+            <pre>
+                &lt;a&gt; , &lt;b&gt; , &lt;i&gt; , &lt;span&gt; , &lt;button&gt; , &lt;lable&gt; , &lt;sub&gt; , &lt;sup&gt; , &lt;select&gt; , &lt;object&gt; , &lt;img&gt; , &lt;em&gt; , &lt;strong&gt;
+            </pre>
+        </i>
+        But the nature of an element being block or inline can be easily changed in CSS by changing their display type.
+    </blockquote>
+    <h3 class="question">
+        What is the difference between em and strong?
+    </h3>
+    <blockquote>
+        em and strong both are special tags that can used as an alternative to i and b tags respectively. While em tag appears in italic and is used to emphasize the text that makes it stand out in the crowd, the strong tag that appears in bold is often used to convey the importance and urgency of the text.
+    </blockquote>
+    <h3 class="question">
+        What are attributes?
+    </h3>
+    <blockquote>
+        Attribtes are special tag specific HTML keywords that provides an additional information for that HTML element. They come in the form of name and pair values that must be written in the opening tag of the element anywhere after the tagname.
+        <br><br>
+        <i>
+            <b>
+                Example:
+            </b>
+            <br><br>
+            <b>
+                &lt;a&gt; :
+            </b>
+            <span>
+                href, rel, target, type
+            </span>
+            <br><br>
+            <b>
+                &lt;img&gt; :
+            </b>
+            <span>
+                src, alt, width, height
+            </span>
+            <br><br>
+            <b>
+                &lt;ol &gt; :
+            </b>
+            <span>
+                start, type, reversed
+            </span>
+        </i>
+    </blockquote>
+    <h3 class="question">
+        What is the difference between HTML tags and elements?
+    </h3>
+    <blockquote>
+        HTML tags are the starting and ending part of the HTML elements that define which type of HTML element we are using and the structure of the webpage depends on whar kind of tag we use here. They are enclosed within the anchor bracket &lt; &gt;
+        <br><br>
+        <i>
+            <b>
+                Example:
+            </b>
+            <br>
+            <i>
+            <pre>
+&lt;p&gt;&lt;\p&gt;
+&lt;pre&gt;&lt;\pre&gt;
+&lt;b&gt;&lt;\b&gt;
+            </pre>
+            </i>
+            Whereas HTML element contain the HTML tags, the attributes associated with it and as well as the content that is within the opening and closing tags.
+        <br><br>
+        <i>
+            <b>
+                Example:
+            </b>
+            <br>
+            <i>
+            <pre>
+&lt;ul type="circle"&gt;
+&lt;li&gt;
+one
+&lt;\li&gt;
+&lt;\ul&gt;
+
+&lt;pre&gt;This is Pre element&lt;\pre&gt;
+
+&lt;i&gt;This is italic text&lt;\i&gt;
+            </pre>
+            </i>
+    </blockquote>
+    <h3 class="question">
+        Explain br tags.
+    </h3>
+    <blockquote>
+        br tags are used to create a line break within a text or sections. They are empty tags, i.e., they don't need a seperate closing tag and are inline in display nature. Though they aren't much preferred and are often replaced by using the div or span elements.
+    </blockquote>
+    <h3 class="question">
+        What are semantic tags?
+    </h3>
+    <blockquote>
+        Semantic tags are special kind of tags that are self defining unlike the other tags that the Browser or User can look at it's tagname and easily identify it's fuction within the HTML webpage.
+        <br>
+        <br>
+        <i>
+            <b>
+                Example:
+            </b>
+            <pre>
+                &lt;header&gt; , &lt;footer&gt; , &lt;section&gt; , &lt;form&gt; , &lt;table&gt;
+            </pre>
+        </i>
+    </blockquote>
+</center>
+</body>
+</html>
