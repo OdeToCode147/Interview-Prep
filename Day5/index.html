@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>
+        CSS Implementation Day 5
+    </h1>
+    <h3>
+       15. What are pseudo selectors in CSS What are CSS combinators 
+    </h3>
+    <div>
+        Combinators are CSS elements that define the relation between the selectors. There are 4 different types of combinators, namely,
+        <ol>
+            <li>Descendant Selector - "Space"</li>
+            <div class="Descendant">
+               <div class="Descendant-1">
+                Descendant-1
+            </div>
+            <div class="Descendant-2">
+                Descendant-2
+            </div>
+            <span class="Descendant-3">
+                Not a Descendant
+            </span>
+            </div>
+            <br>
+            <li>Child Selector - ">"</li>
+            <div class="Child">
+                <div class="Child-1">
+                    Child-1
+                </div>
+                <div class="Child-2">
+                    Child-1
+                </div>
+                <div class="Child-3">
+                    Child-1
+                </div>
+            </div>
+            <div class="Child-4">
+                Not a Child
+            </div>
+            <li>Adjacent Sibling Selector - "+"</li>
+            <div class="Adjacent">
+                <div class="Adj Adjacent-1">
+                    Child of the same parent but not the targeted element
+                </div>
+                <div class="Adj Adjacent-2">
+                    targeting through this element
+                </div>
+                <div class="Adj Adjacent-3">
+                    targeted adjacent element
+                </div>
+            </div>
+            <li>General Sibling Selector - "~"</li>
+        <div class="Sibling">
+                <div class="Sib Sibling-1">
+                    targeting through this element
+            </div>
+            <div class="Sib Sibling-2">
+                targeted Sibling element
+            </div>
+            <div class="Sib Sibling-3">
+                targeted Sibling element
+            </div>
+        </div>  
+    </div>
+        </ol>
+    </div>
+    <hr width="100.975%" size="2px" noshade>
+    <h3>
+        16. What are pseudo selectors in CSS
+    </h3>
+    <h4>
+        Hover
+    </h4>
+    <div class="Hover">
+        Hover Me
+    </div>
+    <h4>
+        First Child
+    </h4>
+    <div class="First">
+        <p>
+            First Child
+        </p>
+        <p>
+            Second Child
+        </p>
+    </div>
+    <h4>
+        Nth Child
+    </h4>
+    <div class="Nth">
+        <p>
+            First Child - Not targeted
+        </p>
+        <p>
+            Second Child - Targeted
+        </p>
+        <p>
+            Third Child - Not targeted
+        </p>
+    </div>
+</body>
+</html>

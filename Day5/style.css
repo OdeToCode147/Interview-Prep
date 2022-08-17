@@ -1,0 +1,93 @@
+blockquote{
+    color: #567;
+}
+body{
+    background-color: #EBFFFB;
+}
+hr{
+    position: relative;
+    right: 8px;
+    color: #445566;
+}
+.heading{
+    color: aliceblue;
+    position: relative;
+    bottom: 65px;
+}
+html{
+    border-top: #445566 50px solid;
+    border-bottom: #445566 5px solid;
+    border-left: #445566 5px solid ;
+    border-right: #445566 5px solid ;
+}
+.question{
+    color: #304357;
+}
+.Descendant-3{
+    background-color: #075767;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.Descendant div{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.Child-4{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.Child > div{
+    background-color: #075767;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.Adj{
+    background-color: steelblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.Adjacent-2 + .Adjacent-3{
+    background-color: tomato;
+}
+.Sib{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: sandybrown;
+}
+.Sibling-1 ~ div{
+    background-color:palevioletred;
+}
+.Hover{
+    background-color: #075767;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.Hover:hover{
+    background-color: tomato;
+    position: relative;
+    left: 20px;
+}
+.First{
+    background-color: #075767;
+}
+p:first-child{
+    color: tomato;
+}
+.Nth{
+    background-color: tomato;
+}
+.Nth > p:nth-child(3){
+    background-color: #075767;
+}
+.Z{
+    z-index: 100;
+}
